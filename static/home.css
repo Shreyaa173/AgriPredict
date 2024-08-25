@@ -1,0 +1,132 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.heading{
+    font-size: 60px;
+    color: white;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid p{
+    color: white;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.card-text{
+    font-size: 18px;
+    text-align: center;
+}
+
+label{
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+body{
+    background-image: url(/static/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card{
+margin-left:410px;
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.container{
+font-weight: bold;
+padding-bottom:10px;
+border-radius: 15px;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+nav{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 2;
+    padding-bottom: 25px;
+}
+
+.nav-icon{
+    width: 65vw;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+}
+
+.nav-icon p{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.nav-text{
+    margin-top: 14px; 
+    display: flex;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-item{
+    margin-left: 5vw;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-item a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+.nav-item a:hover{
+    opacity: 1;
+    font-weight: 600;
+}

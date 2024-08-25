@@ -12,10 +12,15 @@ mx = pickle.load(open('minmaxscaler.pkl','rb'))
 
 
 app = Flask(__name__)
+# @app.route('/')
+# def home():
+#     result = ""  # Set result to an empty string on reload
+#     return render_template("index.html", result=result)
 
 @app.route('/')
-def index():
-    return render_template("index.html")
+def home():
+    result = ""  # Set result to an empty string on reload
+    return render_template("home.html", result=result)
 
 @app.route("/predict",methods=['POST'])
 def predict():
@@ -44,7 +49,7 @@ def predict():
         result = "{} is the best crop to be cultivated right there".format(crop)
     else:
         result = "Sorry, we could not determine the best crop to be cultivated with the provided data."
-    return render_template('index.html',result = result)
+    return render_template('home.html',result = result)
 
 
 if __name__ == "__main__":
