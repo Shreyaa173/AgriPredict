@@ -25,13 +25,12 @@ h1 {
     text-align: center;
 }
 
-
-
 label{
     color: white;
     margin-left: 10px;
     font-size: 18px;
 }
+
 body{
     background-image: url(/static/form3.png);
     background-repeat: no-repeat;
