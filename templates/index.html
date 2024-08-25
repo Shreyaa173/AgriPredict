@@ -68,10 +68,9 @@
       </form>
 
        {% if result %}
-		<div class="card bg-white" style="width: 18rem;">
-		  <img src="{{url_for('static', filename='crop.png')}}" style="width: 70px; height: 70px;" class="card-img-top" alt="...">
+		<div class="card bg-white" style="width: 28rem;">
+		  <img src="{{url_for('static', filename='crop.png')}}" style="width: 70px; height: 100px;" class="card-img-top" alt="...">
 		  <div class="card-body">
-			<h5 class="card-title">Recommend Crop for Cultivation is:</h5>
 			<p class="card-text">{{ result }} </p>
 		  </div>
 		</div>
