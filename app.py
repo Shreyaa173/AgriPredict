@@ -1,8 +1,10 @@
-from flask import Flask,request,render_template
+from flask import Flask,request, render_template
 import numpy as np
-import pandas
-import sklearn
 import pickle
+import sklearn
+print(sklearn.__version__)
+import streamlit as st
+print(st.__version__)
 
 model = pickle.load(open('crop_recommendation.pkl','rb'))
 sc = pickle.load(open('standardscaler.pkl','rb'))
