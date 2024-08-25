@@ -1,0 +1,68 @@
+h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading{
+    font-size: 50px;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid p{
+    color: white;
+    font-size: 24px;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+
+
+label{
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+}
+body{
+    background-image: url(/static/form3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card{
+margin-left:410px;
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.container{
+font-weight: bold;
+padding-bottom:10px;
+border-radius: 15px;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
