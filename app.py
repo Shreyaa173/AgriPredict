@@ -49,4 +49,5 @@ def predict():
         result = "Sorry, we could not determine the best crop to be cultivated with the provided data."
     return render_template('home.html',result = result)
 
-
+if __name__ == "__main__":
+    app.run(debug=True)
