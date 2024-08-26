@@ -60,9 +60,6 @@ AgriPredict is designed to evolve and adapt to meet the growing needs of modern 
 - **Regional Adaptation:** Adapt the technology for various regions with diverse climates, soil types, and agricultural practices.
 - **Localization:** Tailor features to support local languages and farming practices in different geographic locations.
 
-## Let's Create Memories Together
-Your event deserves the best photography, and Pixel Palette is here to make it happen. Explore our website, view our photographers' portfolios, and book the perfect team for your next event. Let us help you create beautiful memories that last a lifetime.
-
 ## Tech Stack
 
 - Web Developement
