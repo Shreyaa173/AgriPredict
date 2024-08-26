@@ -12,15 +12,13 @@ mx = pickle.load(open('minmaxscaler.pkl','rb'))
 
 
 app = Flask(__name__)
-# @app.route('/')
-# def home():
-#     result = ""  # Set result to an empty string on reload
-#     return render_template("index.html", result=result)
-
 @app.route('/')
+def index():
+    return render_template("index.html")
+
+@app.route('/home')
 def home():
-    result = ""  # Set result to an empty string on reload
-    return render_template("home.html", result=result)
+    return render_template("home.html")
 
 @app.route("/predict",methods=['POST'])
 def predict():

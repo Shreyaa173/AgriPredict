@@ -8,6 +8,10 @@ html,body{
     width: 100%;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
 .home{
     height: 100vh;
     background-image: url(/static/index.png);
@@ -90,7 +94,7 @@ nav{
 
 #heading h1 {
     color: white;
-    opacity: 0.8;
+    opacity: 0.9;
     margin-left: 30px;
     line-height: 1;
     font-size: 8vw;
