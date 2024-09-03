@@ -1,4 +1,4 @@
-from flask import Flask,request, render_template
+from flask import Flask,request, render_template,request
 import numpy as np
 import pickle
 import sklearn
