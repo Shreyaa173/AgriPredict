@@ -3,4 +3,3 @@ scikit-learn==1.3.2
 joblib
 pandas
 Flask==2.0.1
-Werkzeug==2.2.2
