@@ -106,7 +106,7 @@ python-json-logger==2.0.7
 pyttsx==1.1
 pyttsx3==2.90
 pytz==2024.1
-pywin32==306
+pywin32==308
 pywinpty==2.0.13
 PyYAML==6.0.2
 pyzmq==26.1.0
